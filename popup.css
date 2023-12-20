@@ -1,0 +1,28 @@
+body {
+  width: 200px;
+  padding: 10px;
+  overflow: auto; /* Add overflow property to enable scrolling */
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+button {
+  width: 50%;
+  padding: 2px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+  /* Fix the position of the button */
+  position: fixed;
+  bottom: 5px; /* Adjust the distance from the bottom as needed */
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Adjust for the button width */
+}
